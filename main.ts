@@ -1,7 +1,7 @@
 input.onButtonPressed(Button.A, function () {
-    RingbitCar.freestyle(50, 50)
-    RingbitCar.running_time(RingbitCar.Direction_run.forward, 2)
-    RingbitCar.steering_angle(RingbitCar.Direction_turn.right, 60)
+    RingbitCar.running_time(RingbitCar.Direction_run.forward, 4)
+    RingbitCar.steering_angle(RingbitCar.Direction_turn.right, 180)
+    RingbitCar.running_time(RingbitCar.Direction_run.forward, 6)
 })
 input.onButtonPressed(Button.B, function () {
     RingbitCar.brake()
