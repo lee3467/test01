@@ -1,13 +1,12 @@
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    RingbitCar.running_time(RingbitCar.Direction_run.forward, 4.3)
-    RingbitCar.steering_angle(RingbitCar.Direction_turn.right, 190)
-    RingbitCar.running_time(RingbitCar.Direction_run.forward, 6.8)
-    RingbitCar.steering_angle(RingbitCar.Direction_turn.right, 250)
-    RingbitCar.running_time(RingbitCar.Direction_run.forward, 4)
-    RingbitCar.steering_angle(RingbitCar.Direction_turn.left, 115)
-})
-input.onButtonPressed(Button.A, function () {
-	
+    RingbitCar.freestyle(0, 0)
+    RingbitCar.running_time(RingbitCar.Direction_run.forward, 3.9)
+    RingbitCar.steering_angle(RingbitCar.Direction_turn.right, 90)
+    RingbitCar.running_time(RingbitCar.Direction_run.forward, 6.5)
+    RingbitCar.steering_angle(RingbitCar.Direction_turn.right, 150)
+    RingbitCar.running_time(RingbitCar.Direction_run.forward, 3)
+    RingbitCar.steering_angle(RingbitCar.Direction_turn.left, 60)
+    RingbitCar.running_time(RingbitCar.Direction_run.forward, 2)
 })
 input.onButtonPressed(Button.B, function () {
     RingbitCar.brake()
